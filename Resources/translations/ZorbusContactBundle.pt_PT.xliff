@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="1">
+                <source>Contact List</source>
+                <target>Listar Contactos</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Title</source>
+                <target>Título</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Subject</source>
+                <target>Assunto</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Message</source>
+                <target>Mensagem</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Receiver</source>
+                <target>Para</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Contact Show</source>
+                <target>Mostrar Contacto</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Contacto History</source>
+                <target>Histórico do Contacto</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Sender</source>
+                <target>De</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Bcc</source>
+                <target>Bcc</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Contact</source>
+                <target>Contacto</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Dashboard</source>
+                <target>Painel de controlo</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Contact Block</source>
+                <target>Bloco de contacto</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="">
+                <source></source>
+                <target></target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

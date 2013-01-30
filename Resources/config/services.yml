@@ -1,7 +1,20 @@
 parameters:
-#    zorbus_contact.example.class: Zorbus\ContactBundle\Example
-
+    zorbus_contact.contact.admin.class: Zorbus\ContactBundle\Admin\ContactAdmin 
+    zorbus_contact.contact.entity.class: Zorbus\ContactBundle\Entity\Contact
+    zorbus_contact.contact.controller.class: SonataAdminBundle:CRUD
+    zorbus_contact.block.contact.class: Zorbus\ContactBundle\Model\BlockContactConfig
+    
 services:
-#    zorbus_contact.example:
-#        class: %zorbus_contact.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    zorbus_contact.contact.admin:
+        class: %zorbus_contact.contact.admin.class%
+        arguments: [~, %zorbus_contact.contact.entity.class%, %zorbus_contact.contact.controller.class%]
+        calls:
+            - [setTranslationDomain, [ZorbusContactBundle]]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Contact, label: Contact }
+    zorbus_contact.block.contact:
+        class: %zorbus_contact.block.contact.class%
+        scope: prototype
+        arguments: ['@zorbus_block.block.admin', '@form.factory', '@http_kernel']
+        tags:
+            - { name: zorbus_block.block, category: Contact }
