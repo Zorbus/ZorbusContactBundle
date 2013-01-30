@@ -1,0 +1,36 @@
+{
+    "name": "zorbus/contact-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 Contact bundle",
+    "keywords": ["doctrine", "orm", "bundle", "Symfony2", "contact"],
+    "homepage": "https://github.com/Zorbus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tito Miguel Costa",
+            "email": "zorbus@titomiguelcosta.com",
+            "homepage": "http://www.titomiguelcosta.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.2-dev",
+        "stof/doctrine-extensions-bundle": "*",
+        "doctrine/doctrine-bundle": "*"
+    },
+    "suggest": {
+        "twig/twig": "Great template language",
+        "doctrine/doctrine-fixtures-bundle": "To load fixtures data",
+        "doctrine/doctrine-migrations-bundle": "To alter database schema in a secure way"
+    },
+    "autoload": {
+        "psr-0": { "Zorbus\\ContactBundle": "" }
+    },
+    "target-dir": "Zorbus/ContactBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.*-dev"
+        }
+    }
+}
