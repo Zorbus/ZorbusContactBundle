@@ -53,7 +53,7 @@ class BlockContactConfig extends BlockConfig
         $block = null === $block ? new BlockEntity() : $block;
 
         $block->setService($this->getService());
-        $block->setCategory('Faq');
+        $block->setCategory('Contact');
         $block->setParameters(json_encode(array(
             'to' => $data['to'],
             'from' => $data['from'],

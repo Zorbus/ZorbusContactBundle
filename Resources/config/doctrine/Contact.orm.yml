@@ -1,5 +1,5 @@
 Zorbus\ContactBundle\Entity\Contact:
-    type: entity
+    type: mappedSuperclass
     table: zorbus_contact_contact
     repositoryClass: Zorbus\ContactBundle\Entity\ContactRepository
     id:
