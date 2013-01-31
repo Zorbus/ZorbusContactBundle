@@ -12,57 +12,57 @@ class Contact extends Base\Contact
     /**
      * @var integer
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $receiver;
+    protected $receiver;
 
     /**
      * @var string
      */
-    private $cc;
+    protected $cc;
 
     /**
      * @var string
      */
-    private $bcc;
+    protected $bcc;
 
     /**
      * @var string
      */
-    private $sender;
+    protected $sender;
 
     /**
      * @var string
      */
-    private $title;
+    protected $title;
 
     /**
      * @var string
      */
-    private $subject;
+    protected $subject;
 
     /**
      * @var string
      */
-    private $attachment;
+    protected $attachment;
 
     /**
      * @var string
      */
-    private $message;
+    protected $message;
 
     /**
      * @var \DateTime
      */
-    private $created_at;
+    protected $created_at;
 
     /**
      * @var \DateTime
      */
-    private $updated_at;
+    protected $updated_at;
 
 
     /**
